@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "cascadia code";
+	font-size: 26px;
+	color: #fff;
+	background: #ffd600;
+	background: -webkit-linear-gradient(to right, #ffd600, #a08b17);
+	background: linear-gradient(to right, #ffd600, #a08b17);
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+div {
+	text-align: center;
+}
